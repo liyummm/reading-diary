@@ -1,0 +1,5 @@
+# Local env variables
+.env
+.env.local
+.env.*.local
+hash-password.js

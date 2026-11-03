@@ -4,7 +4,8 @@
   "description": "package.json for reading diary app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/liyummm/reading-diary#readme",
   "dependencies": {
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
   }
 }
